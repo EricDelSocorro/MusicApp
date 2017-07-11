@@ -1,0 +1,3 @@
+com\musicgroup\controller\ProductPageController.class
+com\musicgroup\configuration\MusicServletConfig.class
+com\musicgroup\configuration\MusicWebInitializer.class
