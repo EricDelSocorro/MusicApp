@@ -29,7 +29,7 @@ public class MusicServletConfig extends WebMvcConfigurerAdapter {
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry
 			.addResourceHandler("/resources/**")
-			.addResourceLocations("/resources/", "/resources/product_image/")
+			.addResourceLocations("/resources/", "/resources/product_image/", "resources/css")
 			.setCachePeriod(3600)
 			.resourceChain(true)
 			.addResolver(new PathResourceResolver());
